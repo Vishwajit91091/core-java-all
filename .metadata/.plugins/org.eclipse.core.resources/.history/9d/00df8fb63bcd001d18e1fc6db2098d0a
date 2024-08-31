@@ -1,0 +1,21 @@
+package streamapi;
+
+import java.util.ArrayList;
+
+public class ShortingUsing_StreamApi 
+{
+	void meth1() {
+		ArrayList<Integer> al=new ArrayList<Integer>();
+		al.add(55);
+		al.add(22);
+		
+		
+	}
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

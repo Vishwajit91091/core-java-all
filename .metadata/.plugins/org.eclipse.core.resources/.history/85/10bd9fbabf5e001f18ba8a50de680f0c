@@ -1,0 +1,22 @@
+package test;
+
+import java.util.LinkedList;
+
+public class SingleLinkedList {
+
+	public static void main(String[] args) {
+		LinkedList<String> ll=new LinkedList<String>();
+		//add
+		ll.add("test");
+		ll.add("qta");
+		ll.add("selenium");
+		
+		//print
+		System.out.println(ll);
+		//addFirst
+		ll.addFirst("java");
+		//addLast
+		ll.addLast("spring");
+		System.out.println(ll);
+	}
+}

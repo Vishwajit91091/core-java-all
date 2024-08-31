@@ -1,0 +1,26 @@
+package streamapi;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ClassA 
+{
+	void meth1()
+	{
+		ArrayList<Object> al=new ArrayList<Object>();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter employee age");
+		for(int i=1;i<=5;i++)
+		{
+			al.add(sc.nextInt());
+		}
+		
+	}
+
+	public static void main(String[] args) 
+	{
+		new ClassA().meth1();
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package c_based_programs;
+
+public class ReadAge_inNo_FindYear {
+
+	void meth1(int days) {
+		
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

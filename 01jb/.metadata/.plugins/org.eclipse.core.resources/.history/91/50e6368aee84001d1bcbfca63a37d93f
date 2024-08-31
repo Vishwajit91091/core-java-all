@@ -1,0 +1,17 @@
+package basics;
+
+public class Demo11 {
+	
+	
+	public static void main(String[] args) {
+		
+		new Demo11().meth1();
+	}
+
+	private void meth1() {
+		
+		
+	}
+	
+
+}

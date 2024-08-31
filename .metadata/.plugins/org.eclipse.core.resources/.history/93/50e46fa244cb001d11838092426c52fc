@@ -1,0 +1,17 @@
+package streamapi;
+
+public class ClassB 
+{
+	static int i=5;
+	int j=10;
+}
+class Test
+{
+	public static void main(String[] args) {
+		ClassB obj=new ClassB();
+		System.out.println(obj.i+" "+obj.j);
+	}
+	
+}
+
+
